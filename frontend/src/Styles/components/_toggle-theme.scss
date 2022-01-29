@@ -1,0 +1,26 @@
+.btn-theme {
+  border: 0;
+  color: var(--theme-text);
+  float: right;
+  height: 100%;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: $transition-delay;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: var(--theme-primary);
+}
+
+.btn-theme.btn-theme-dark:hover {
+  filter: brightness(130%);
+  color: yellow;
+  background-color: var(--theme-primary);
+}
+
+.btn-theme:hover {
+  filter: brightness(130%);
+  color: darkblue;
+  background-color: var(--theme-primary);
+}

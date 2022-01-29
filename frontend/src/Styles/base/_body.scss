@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+}
+
+.page-wrapper {
+  transition: background-color $transition-delay;
+  padding-top: 3rem;
+  background-color: var(--theme-background);
+  height: 1600px;
+}
